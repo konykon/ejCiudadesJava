@@ -37,62 +37,71 @@ public class EjCiudades {
 		
 		
 		// Fase 4
-		String[] arrayBarcelona = new String[9];
-		arrayBarcelona[0] = "B";
-		arrayBarcelona[1] = "a";
-		arrayBarcelona[2] = "r";
-		arrayBarcelona[3] = "c";
-		arrayBarcelona[4] = "e";
-		arrayBarcelona[5] = "l";
-		arrayBarcelona[6] = "o";
-		arrayBarcelona[7] = "n";
-		arrayBarcelona[8] = "a";
 		
-		String[] arrayMadrid = new String[6];
-		arrayMadrid[0] = "M";
-		arrayMadrid[1] = "a";
-		arrayMadrid[2] = "d";
-		arrayMadrid[3] = "r";
-		arrayMadrid[4] = "i";
-		arrayMadrid[5] = "d";
+		String[] arrBarcelona = ciudadUno.split("");
+		String[] arrMadrid = ciudadDos.split("");
+		String[] arrValencia = ciudadTres.split("");
+		String[] arrMalaga = ciudadCuatro.split("");
+		String[] arrCadis = ciudadCinco.split("");
+		String[] arrSantander = ciudadSeis.split("");
+
 		
-		String[] arrayValencia = new String[8];
-		arrayValencia[0] = "V";
-		arrayValencia[1] = "a";
-		arrayValencia[2] = "l";
-		arrayValencia[3] = "e";
-		arrayValencia[4] = "n";
-		arrayValencia[5] = "c";
-		arrayValencia[6] = "i";
-		arrayValencia[7] = "a";
+//		String[] arrayBarcelona = new String[9];
+//		arrayBarcelona[0] = "B";
+//		arrayBarcelona[1] = "a";
+//		arrayBarcelona[2] = "r";
+//		arrayBarcelona[3] = "c";
+//		arrayBarcelona[4] = "e";
+//		arrayBarcelona[5] = "l";
+//		arrayBarcelona[6] = "o";
+//		arrayBarcelona[7] = "n";
+//		arrayBarcelona[8] = "a";
+//		
+//		String[] arrayMadrid = new String[6];
+//		arrayMadrid[0] = "M";
+//		arrayMadrid[1] = "a";
+//		arrayMadrid[2] = "d";
+//		arrayMadrid[3] = "r";
+//		arrayMadrid[4] = "i";
+//		arrayMadrid[5] = "d";
+//		
+//		String[] arrayValencia = new String[8];
+//		arrayValencia[0] = "V";
+//		arrayValencia[1] = "a";
+//		arrayValencia[2] = "l";
+//		arrayValencia[3] = "e";
+//		arrayValencia[4] = "n";
+//		arrayValencia[5] = "c";
+//		arrayValencia[6] = "i";
+//		arrayValencia[7] = "a";
+//		
+//		String[] arrayMalaga = new String[6];
+//		arrayMalaga[0] = "M";
+//		arrayMalaga[1] = "a";
+//		arrayMalaga[2] = "l";
+//		arrayMalaga[3] = "a";
+//		arrayMalaga[4] = "g";
+//		arrayMalaga[5] = "a";
+//		
+//		String[] arrayCadis = new String[5];
+//		arrayCadis[0] = "C";
+//		arrayCadis[1] = "a";
+//		arrayCadis[2] = "d";
+//		arrayCadis[3] = "i";
+//		arrayCadis[4] = "s";
+//		
+//		String[] arraySantander = new String[9];
+//		arraySantander[0] = "S";
+//		arraySantander[1] = "a";
+//		arraySantander[2] = "n";
+//		arraySantander[3] = "t";
+//		arraySantander[4] = "a";
+//		arraySantander[5] = "n";
+//		arraySantander[6] = "d";
+//		arraySantander[7] = "e";
+//		arraySantander[8] = "r";
 		
-		String[] arrayMalaga = new String[6];
-		arrayMalaga[0] = "M";
-		arrayMalaga[1] = "a";
-		arrayMalaga[2] = "l";
-		arrayMalaga[3] = "a";
-		arrayMalaga[4] = "g";
-		arrayMalaga[5] = "a";
-		
-		String[] arrayCadis = new String[5];
-		arrayCadis[0] = "C";
-		arrayCadis[1] = "a";
-		arrayCadis[2] = "d";
-		arrayCadis[3] = "i";
-		arrayCadis[4] = "s";
-		
-		String[] arraySantander = new String[9];
-		arraySantander[0] = "S";
-		arraySantander[1] = "a";
-		arraySantander[2] = "n";
-		arraySantander[3] = "t";
-		arraySantander[4] = "a";
-		arraySantander[5] = "n";
-		arraySantander[6] = "d";
-		arraySantander[7] = "e";
-		arraySantander[8] = "r";
-		
-		String[][] arrCiudades = {arrayBarcelona, arrayMadrid, arrayValencia, arrayMalaga, arrayCadis, arraySantander};
+		String[][] arrCiudades = {arrBarcelona, arrMadrid, arrValencia, arrMalaga, arrCadis, arrSantander};
 		
 		for (String[] arr : arrCiudades) {
 			int length = arr.length - 1;
